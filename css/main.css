@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    margin: 0;
+}
+
+body {
+    display: flex;
+}
+
+svg {
+    flex: 1;
+    margin: 0;
+    text-rendering: geometricPrecision;
+}
+
+rect,
+line,
+path {
+    shape-rendering: crispEdges;
+}
+
+circle {
+    stroke: black;
+}
